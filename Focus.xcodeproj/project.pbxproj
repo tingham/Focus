@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20C0A661842EB6800356F87 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A05CE1842E71B0022901D /* ConnectionManager.m */; };
+		A20CF68E18445A62000CBDA0 /* Focus.m in Sources */ = {isa = PBXBuildFile; fileRef = A20CF68D18445A62000CBDA0 /* Focus.m */; };
+		A20CF68F18445A62000CBDA0 /* Focus.m in Sources */ = {isa = PBXBuildFile; fileRef = A20CF68D18445A62000CBDA0 /* Focus.m */; };
+		A20CF69918445B09000CBDA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20CF69218445AB3000CBDA0 /* XCTest.framework */; };
+		A20CF69F18445B09000CBDA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20CF69D18445B09000CBDA0 /* InfoPlist.strings */; };
+		A20CF6A118445B09000CBDA0 /* FocusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20CF6A018445B09000CBDA0 /* FocusTests.m */; };
+		A21B6164184140B70085C4B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6163184140B70085C4B7 /* CFNetwork.framework */; };
+		A21B6166184140BE0085C4B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */; };
+		A21B6167184141460085C4B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */; };
+		A21B61681841414A0085C4B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6163184140B70085C4B7 /* CFNetwork.framework */; };
+		A21B6169184141510085C4B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6163184140B70085C4B7 /* CFNetwork.framework */; };
+		A21B616A1841415C0085C4B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */; };
+		A2221A741861194F009AE3E9 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A21B615E184140A20085C4B7 /* LoggerClient.m */; };
+		A2221A751861195A009AE3E9 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A21B615E184140A20085C4B7 /* LoggerClient.m */; };
+		A2221A771861196A009AE3E9 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A21B615E184140A20085C4B7 /* LoggerClient.m */; };
+		A2221A7818611986009AE3E9 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A21B615E184140A20085C4B7 /* LoggerClient.m */; };
+		A2221A7B1861526C009AE3E9 /* InstallerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B211842C05B008744DC /* InstallerManager.m */; };
+		A2221A7D186152AF009AE3E9 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A222241F1847CAF8008FD525 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		A2221A7E1861538C009AE3E9 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F715E7D4D4007554D3 /* ServiceManagement.framework */; };
+		A2221A7F186153AA009AE3E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED7B8315E79B83002AD912 /* Cocoa.framework */; };
+		A22224211847CAF8008FD525 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A222241F1847CAF8008FD525 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		A2307CE9184D5BCF00C2F291 /* focus in Resources */ = {isa = PBXBuildFile; fileRef = A2307CE8184D5BCF00C2F291 /* focus */; };
+		A241E19C187517DB00A86DD1 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A241E1981875165C00A86DD1 /* Sparkle.framework */; };
+		A241E19E1875204A00A86DD1 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A241E1981875165C00A86DD1 /* Sparkle.framework */; };
+		A242FB9218640E01008DEB21 /* NSAttributedString+hyperlinkFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = A242FB9118640E01008DEB21 /* NSAttributedString+hyperlinkFromString.m */; };
+		A25242E718629C630097F28A /* FocusBlackholeProxy.py in Resources */ = {isa = PBXBuildFile; fileRef = A25242E618629C630097F28A /* FocusBlackholeProxy.py */; };
+		A265E80B184464340098D0AB /* Focus.m in Sources */ = {isa = PBXBuildFile; fileRef = A20CF68D18445A62000CBDA0 /* Focus.m */; };
+		A2703165184D90BE00D11B81 /* FocusHTTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2703164184D90BE00D11B81 /* FocusHTTProxy.m */; };
+		A283BEBA1846C74600A45D96 /* NetworkSetupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C8184565AA00A1566A /* NetworkSetupManager.m */; };
+		A283BEBB1846C74A00A45D96 /* PACFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C21845656600A1566A /* PACFileManager.m */; };
+		A289EC09185D2F4C0067C19D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6163184140B70085C4B7 /* CFNetwork.framework */; };
+		A29A05CF1842E71B0022901D /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A05CE1842E71B0022901D /* ConnectionManager.m */; };
+		A2B2A0751846BC47004C8A81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED7B8315E79B83002AD912 /* Cocoa.framework */; };
+		A2B2A0771846BC62004C8A81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */; };
+		A2B2A0781846BC70004C8A81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F915E7D4D8007554D3 /* Security.framework */; };
+		A2B9745A185046040005D840 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = A2B97458185046040005D840 /* template.html */; };
+		A2CF79C31845656600A1566A /* PACFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C21845656600A1566A /* PACFileManager.m */; };
+		A2CF79C41845656600A1566A /* PACFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C21845656600A1566A /* PACFileManager.m */; };
+		A2CF79C9184565AA00A1566A /* NetworkSetupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C8184565AA00A1566A /* NetworkSetupManager.m */; };
+		A2CF79CA184565AA00A1566A /* NetworkSetupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79C8184565AA00A1566A /* NetworkSetupManager.m */; };
+		A2CF79CC184565FE00A1566A /* NetworkSetupManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79CB184565FE00A1566A /* NetworkSetupManagerTestCase.m */; };
+		A2CF79D3184567C500A1566A /* PACFileManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79D2184567C500A1566A /* PACFileManagerTestCase.m */; };
+		A2D11009187527E900245118 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A2D11008187527E900245118 /* dsa_pub.pem */; };
+		A2D57AF31841662F008744DC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D57AF21841662F008744DC /* README.txt */; };
+		A2D57AF61841AC6A008744DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D57AF51841AC6A008744DC /* Images.xcassets */; };
+		A2D57B0318428439008744DC /* FFYDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B0018428439008744DC /* FFYDaemonController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		A2D57B0418428439008744DC /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A2D57B0118428439008744DC /* MIT-LICENSE */; };
+		A2D57B0518428439008744DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2D57B0218428439008744DC /* README.md */; };
+		A2D57B141842B81A008744DC /* NSTask+runCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B131842B81A008744DC /* NSTask+runCommand.m */; };
+		A2D57B151842B81A008744DC /* NSTask+runCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B131842B81A008744DC /* NSTask+runCommand.m */; };
+		A2D57B221842C05B008744DC /* InstallerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B211842C05B008744DC /* InstallerManager.m */; };
+		A2F6A4B5184EEE2700B07FC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F6A4AF184EEE2700B07FC6 /* InfoPlist.strings */; };
+		A2F6A4B6184EEE2700B07FC6 /* RHStatusItemView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2F6A4B1184EEE2700B07FC6 /* RHStatusItemView-Info.plist */; };
+		A2F6A4B7184EEE2700B07FC6 /* RHStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F6A4B4184EEE2700B07FC6 /* RHStatusItemView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		E4AD7AA91608DC4C00F594A2 /* BradJasper.focus.HelperTool in Copy Files */ = {isa = PBXBuildFile; fileRef = E4CD036715E7A2C300FDC22C /* BradJasper.focus.HelperTool */; };
+		E4AD7AC216090A3300F594A2 /* XPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AD7AA11608DBEC00F594A2 /* XPCService.m */; };
+		E4AD7AC316090A3600F594A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AD7A9E1608DBEC00F594A2 /* main.m */; };
+		E4C32DCC16023A97002AFAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372FB15E7D4FE007554D3 /* Foundation.framework */; };
+		E4C32DE516024494002AFAB3 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F715E7D4D4007554D3 /* ServiceManagement.framework */; };
+		E4C32DE616024498002AFAB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F915E7D4D8007554D3 /* Security.framework */; };
+		E4C32DEA16024D51002AFAB3 /* BradJasper.focus.HelperTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4CD036715E7A2C300FDC22C /* BradJasper.focus.HelperTool */; };
+		E4C32E781603536C002AFAB3 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBCCEB15EBBB8D0081DF5C /* Common.m */; };
+		E4C372F815E7D4D4007554D3 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F715E7D4D4007554D3 /* ServiceManagement.framework */; };
+		E4C372FA15E7D4D8007554D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F915E7D4D8007554D3 /* Security.framework */; };
+		E4C372FC15E7D4FE007554D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372FB15E7D4FE007554D3 /* Foundation.framework */; };
+		E4C776011603A68300C72EC0 /* Common.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4CBCCF215EBC55F0081DF5C /* Common.strings */; };
+		E4CBCCE315EBA7000081DF5C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C372F915E7D4D8007554D3 /* Security.framework */; };
+		E4CBCCE715EBA7550081DF5C /* HelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBCCE615EBA7550081DF5C /* HelperTool.m */; };
+		E4CBCCEC15EBBB8D0081DF5C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBCCEB15EBBB8D0081DF5C /* Common.m */; };
+		E4CBCCED15EBBB8D0081DF5C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBCCEB15EBBB8D0081DF5C /* Common.m */; };
+		E4CBCCF015EBC55F0081DF5C /* Common.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4CBCCF215EBC55F0081DF5C /* Common.strings */; };
+		E4CBCCF315EBC58D0081DF5C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CBCCF515EBC58D0081DF5C /* MainMenu.xib */; };
+		E4CBCD2A15EC191D0081DF5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4CBCD2C15EC191D0081DF5C /* InfoPlist.strings */; };
+		E4CD036D15E7A2C300FDC22C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CD036C15E7A2C300FDC22C /* main.m */; };
+		E4ED7B8415E79B83002AD912 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED7B8315E79B83002AD912 /* Cocoa.framework */; };
+		E4ED7B8B15E79B83002AD912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED7B8A15E79B83002AD912 /* AppDelegate.m */; };
+		E4ED7B8D15E79B83002AD912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED7B8C15E79B83002AD912 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20CF6A318445B09000CBDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4ED7B7615E79B83002AD912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4ED7B7E15E79B83002AD912;
+			remoteInfo = App;
+		};
+		E4AD7AA51608DC2D00F594A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4ED7B7615E79B83002AD912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CD036615E7A2C300FDC22C;
+			remoteInfo = BradJasper.focus.HelperTool;
+		};
+		E4C32DE716024D45002AFAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4ED7B7615E79B83002AD912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CD036615E7A2C300FDC22C;
+			remoteInfo = BradJasper.focus.HelperTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A241E19A1875171500A86DD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A241E19C187517DB00A86DD1 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32DDB16023B43002AFAB3 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				E4AD7AA91608DC4C00F594A2 /* BradJasper.focus.HelperTool in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32DE916024D48002AFAB3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				E4C32DEA16024D51002AFAB3 /* BradJasper.focus.HelperTool in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20CF68C18445A62000CBDA0 /* Focus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Focus.h; sourceTree = "<group>"; };
+		A20CF68D18445A62000CBDA0 /* Focus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Focus.m; sourceTree = "<group>"; };
+		A20CF69218445AB3000CBDA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A20CF69818445B09000CBDA0 /* Focus Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20CF69C18445B09000CBDA0 /* Focus Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Focus Tests-Info.plist"; sourceTree = "<group>"; };
+		A20CF69E18445B09000CBDA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A20CF6A018445B09000CBDA0 /* FocusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusTests.m; sourceTree = "<group>"; };
+		A20CF6A218445B09000CBDA0 /* Focus Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Focus Tests-Prefix.pch"; sourceTree = "<group>"; };
+		A21B615D184140A20085C4B7 /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerClient.h; sourceTree = "<group>"; };
+		A21B615E184140A20085C4B7 /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerClient.m; sourceTree = "<group>"; };
+		A21B615F184140A20085C4B7 /* LoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerCommon.h; sourceTree = "<group>"; };
+		A21B6163184140B70085C4B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A222241E1847CAF8008FD525 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		A222241F1847CAF8008FD525 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		A2307CE8184D5BCF00C2F291 /* focus */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = focus; path = Resources/focus; sourceTree = "<group>"; };
+		A241E1981875165C00A86DD1 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		A242FB9018640E01008DEB21 /* NSAttributedString+hyperlinkFromString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+hyperlinkFromString.h"; sourceTree = "<group>"; };
+		A242FB9118640E01008DEB21 /* NSAttributedString+hyperlinkFromString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+hyperlinkFromString.m"; sourceTree = "<group>"; };
+		A25242E618629C630097F28A /* FocusBlackholeProxy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = FocusBlackholeProxy.py; path = Resources/FocusBlackholeProxy.py; sourceTree = "<group>"; };
+		A2703163184D90BE00D11B81 /* FocusHTTProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusHTTProxy.h; sourceTree = "<group>"; };
+		A2703164184D90BE00D11B81 /* FocusHTTProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusHTTProxy.m; sourceTree = "<group>"; };
+		A29A05CD1842E71B0022901D /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		A29A05CE1842E71B0022901D /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		A2B97458185046040005D840 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template.html; path = Resources/template.html; sourceTree = "<group>"; };
+		A2BAE76D1852385700617287 /* Focus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Focus.entitlements; sourceTree = "<group>"; };
+		A2CF79C11845656600A1566A /* PACFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACFileManager.h; sourceTree = "<group>"; };
+		A2CF79C21845656600A1566A /* PACFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACFileManager.m; sourceTree = "<group>"; };
+		A2CF79C7184565AA00A1566A /* NetworkSetupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSetupManager.h; sourceTree = "<group>"; };
+		A2CF79C8184565AA00A1566A /* NetworkSetupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSetupManager.m; sourceTree = "<group>"; };
+		A2CF79CB184565FE00A1566A /* NetworkSetupManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSetupManagerTestCase.m; sourceTree = "<group>"; };
+		A2CF79D2184567C500A1566A /* PACFileManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACFileManagerTestCase.m; sourceTree = "<group>"; };
+		A2D11008187527E900245118 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
+		A2D57AF21841662F008744DC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A2D57AF418416DAA008744DC /* FocusPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusPrefixHeader.pch; sourceTree = "<group>"; };
+		A2D57AF51841AC6A008744DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
+		A2D57AFF18428439008744DC /* FFYDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFYDaemonController.h; sourceTree = "<group>"; };
+		A2D57B0018428439008744DC /* FFYDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFYDaemonController.m; sourceTree = "<group>"; };
+		A2D57B0118428439008744DC /* MIT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		A2D57B0218428439008744DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A2D57B121842B81A008744DC /* NSTask+runCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+runCommand.h"; sourceTree = "<group>"; };
+		A2D57B131842B81A008744DC /* NSTask+runCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+runCommand.m"; sourceTree = "<group>"; };
+		A2D57B201842C05B008744DC /* InstallerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallerManager.h; sourceTree = "<group>"; };
+		A2D57B211842C05B008744DC /* InstallerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallerManager.m; sourceTree = "<group>"; };
+		A2F6A4B0184EEE2700B07FC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2F6A4B1184EEE2700B07FC6 /* RHStatusItemView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RHStatusItemView-Info.plist"; sourceTree = "<group>"; };
+		A2F6A4B2184EEE2700B07FC6 /* RHStatusItemView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHStatusItemView-Prefix.pch"; sourceTree = "<group>"; };
+		A2F6A4B3184EEE2700B07FC6 /* RHStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStatusItemView.h; sourceTree = "<group>"; };
+		A2F6A4B4184EEE2700B07FC6 /* RHStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStatusItemView.m; sourceTree = "<group>"; };
+		E40FA42317ABE58F00F6CB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E40FA42417ABE59600F6CB03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		E456726C15E7E4B80050ECAB /* Uninstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = Uninstall.sh; path = Resources/Uninstall.sh; sourceTree = "<group>"; };
+		E4AD7A9E1608DBEC00F594A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4AD7A9F1608DBEC00F594A2 /* XPCService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XPCService-Info.plist"; sourceTree = "<group>"; };
+		E4AD7AA01608DBEC00F594A2 /* XPCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCService.h; sourceTree = "<group>"; };
+		E4AD7AA11608DBEC00F594A2 /* XPCService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCService.m; sourceTree = "<group>"; };
+		E4C32DCB16023A97002AFAB3 /* BradJasper.focus.XPCService.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BradJasper.focus.XPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C372E315E7CC10007554D3 /* HelperTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelperTool-Info.plist"; sourceTree = "<group>"; };
+		E4C372E415E7CC10007554D3 /* HelperTool-Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelperTool-Launchd.plist"; sourceTree = "<group>"; };
+		E4C372F715E7D4D4007554D3 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		E4C372F915E7D4D8007554D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E4C372FB15E7D4FE007554D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4CBCCE515EBA7550081DF5C /* HelperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperTool.h; sourceTree = "<group>"; };
+		E4CBCCE615EBA7550081DF5C /* HelperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperTool.m; sourceTree = "<group>"; };
+		E4CBCCE915EBB50D0081DF5C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E4CBCCEB15EBBB8D0081DF5C /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		E4CBCCF115EBC55F0081DF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Common.strings; sourceTree = "<group>"; };
+		E4CBCD2B15EC191D0081DF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4CD036715E7A2C300FDC22C /* BradJasper.focus.HelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BradJasper.focus.HelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CD036C15E7A2C300FDC22C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4ED7B7F15E79B83002AD912 /* Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ED7B8315E79B83002AD912 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4ED7B8615E79B83002AD912 /* App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App-Info.plist"; sourceTree = "<group>"; };
+		E4ED7B8915E79B83002AD912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4ED7B8A15E79B83002AD912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4ED7B8C15E79B83002AD912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20CF69518445B09000CBDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A289EC09185D2F4C0067C19D /* CFNetwork.framework in Frameworks */,
+				A2B2A0781846BC70004C8A81 /* Security.framework in Frameworks */,
+				A2B2A0771846BC62004C8A81 /* SystemConfiguration.framework in Frameworks */,
+				A2B2A0751846BC47004C8A81 /* Cocoa.framework in Frameworks */,
+				A20CF69918445B09000CBDA0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32DC816023A97002AFAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21B616A1841415C0085C4B7 /* SystemConfiguration.framework in Frameworks */,
+				A21B6169184141510085C4B7 /* CFNetwork.framework in Frameworks */,
+				E4C32DCC16023A97002AFAB3 /* Foundation.framework in Frameworks */,
+				E4C32DE516024494002AFAB3 /* ServiceManagement.framework in Frameworks */,
+				E4C32DE616024498002AFAB3 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CD036515E7A2C300FDC22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2221A7F186153AA009AE3E9 /* Cocoa.framework in Frameworks */,
+				A2221A7E1861538C009AE3E9 /* ServiceManagement.framework in Frameworks */,
+				A21B61681841414A0085C4B7 /* CFNetwork.framework in Frameworks */,
+				A21B6167184141460085C4B7 /* SystemConfiguration.framework in Frameworks */,
+				E4C372FC15E7D4FE007554D3 /* Foundation.framework in Frameworks */,
+				E4CBCCE315EBA7000081DF5C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4ED7B7C15E79B83002AD912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21B6166184140BE0085C4B7 /* SystemConfiguration.framework in Frameworks */,
+				A21B6164184140B70085C4B7 /* CFNetwork.framework in Frameworks */,
+				A241E19E1875204A00A86DD1 /* Sparkle.framework in Frameworks */,
+				E4ED7B8415E79B83002AD912 /* Cocoa.framework in Frameworks */,
+				E4C372F815E7D4D4007554D3 /* ServiceManagement.framework in Frameworks */,
+				E4C372FA15E7D4D8007554D3 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20CF68B18445A52000CBDA0 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				A20CF68C18445A62000CBDA0 /* Focus.h */,
+				A20CF68D18445A62000CBDA0 /* Focus.m */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		A20CF69A18445B09000CBDA0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A20CF6A018445B09000CBDA0 /* FocusTests.m */,
+				A2CF79CB184565FE00A1566A /* NetworkSetupManagerTestCase.m */,
+				A2CF79D2184567C500A1566A /* PACFileManagerTestCase.m */,
+				A20CF69B18445B09000CBDA0 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A20CF69B18445B09000CBDA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20CF69C18445B09000CBDA0 /* Focus Tests-Info.plist */,
+				A20CF69D18445B09000CBDA0 /* InfoPlist.strings */,
+				A20CF6A218445B09000CBDA0 /* Focus Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A222241D1847CAF8008FD525 /* LaunchAtLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				A222241E1847CAF8008FD525 /* LaunchAtLoginController.h */,
+				A222241F1847CAF8008FD525 /* LaunchAtLoginController.m */,
+			);
+			path = LaunchAtLoginController;
+			sourceTree = "<group>";
+		};
+		A242FB8C18640D77008DEB21 /* NSAttributedString+hyperlinkFromString */ = {
+			isa = PBXGroup;
+			children = (
+				A242FB9018640E01008DEB21 /* NSAttributedString+hyperlinkFromString.h */,
+				A242FB9118640E01008DEB21 /* NSAttributedString+hyperlinkFromString.m */,
+			);
+			path = "NSAttributedString+hyperlinkFromString";
+			sourceTree = "<group>";
+		};
+		A265E80818445C420098D0AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2BAE76D1852385700617287 /* Focus.entitlements */,
+				A2D57AF418416DAA008744DC /* FocusPrefixHeader.pch */,
+				E4ED7B8615E79B83002AD912 /* App-Info.plist */,
+				E4CBCD2C15EC191D0081DF5C /* InfoPlist.strings */,
+				E4ED7B8C15E79B83002AD912 /* main.m */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		A2703161184D908B00D11B81 /* FocusHTTProxy */ = {
+			isa = PBXGroup;
+			children = (
+				A2703163184D90BE00D11B81 /* FocusHTTProxy.h */,
+				A2703164184D90BE00D11B81 /* FocusHTTProxy.m */,
+			);
+			path = FocusHTTProxy;
+			sourceTree = "<group>";
+		};
+		A2CF79BF1845644E00A1566A /* PACFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF79C11845656600A1566A /* PACFileManager.h */,
+				A2CF79C21845656600A1566A /* PACFileManager.m */,
+			);
+			path = PACFileManager;
+			sourceTree = "<group>";
+		};
+		A2CF79C51845658700A1566A /* NetworkSetupManager */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF79C7184565AA00A1566A /* NetworkSetupManager.h */,
+				A2CF79C8184565AA00A1566A /* NetworkSetupManager.m */,
+			);
+			path = NetworkSetupManager;
+			sourceTree = "<group>";
+		};
+		A2D57AF1184162F2008744DC /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				A21B615D184140A20085C4B7 /* LoggerClient.h */,
+				A21B615E184140A20085C4B7 /* LoggerClient.m */,
+				A21B615F184140A20085C4B7 /* LoggerCommon.h */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		A2D57AFE18428439008744DC /* DaemonController */ = {
+			isa = PBXGroup;
+			children = (
+				A2D57AFF18428439008744DC /* FFYDaemonController.h */,
+				A2D57B0018428439008744DC /* FFYDaemonController.m */,
+				A2D57B0118428439008744DC /* MIT-LICENSE */,
+				A2D57B0218428439008744DC /* README.md */,
+			);
+			path = DaemonController;
+			sourceTree = "<group>";
+		};
+		A2D57B061842AF75008744DC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A242FB8C18640D77008DEB21 /* NSAttributedString+hyperlinkFromString */,
+				A2F6A4AE184EEE2700B07FC6 /* RHStatusItemView */,
+				A222241D1847CAF8008FD525 /* LaunchAtLoginController */,
+				A2D57AFE18428439008744DC /* DaemonController */,
+				A2D57B1E1842BD96008744DC /* NSTask+runCommand */,
+				A2D57AF1184162F2008744DC /* Logger */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		A2D57B081842AFB7008744DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4CBCCF515EBC58D0081DF5C /* MainMenu.xib */,
+				A2D57AF51841AC6A008744DC /* Images.xcassets */,
+				E456726C15E7E4B80050ECAB /* Uninstall.sh */,
+				A2D11008187527E900245118 /* dsa_pub.pem */,
+				A2307CE8184D5BCF00C2F291 /* focus */,
+				A25242E618629C630097F28A /* FocusBlackholeProxy.py */,
+				A2B97458185046040005D840 /* template.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2D57B1E1842BD96008744DC /* NSTask+runCommand */ = {
+			isa = PBXGroup;
+			children = (
+				A2D57B121842B81A008744DC /* NSTask+runCommand.h */,
+				A2D57B131842B81A008744DC /* NSTask+runCommand.m */,
+			);
+			path = "NSTask+runCommand";
+			sourceTree = "<group>";
+		};
+		A2D57B1F1842C03C008744DC /* InstallerManager */ = {
+			isa = PBXGroup;
+			children = (
+				A2D57B201842C05B008744DC /* InstallerManager.h */,
+				A2D57B211842C05B008744DC /* InstallerManager.m */,
+			);
+			path = InstallerManager;
+			sourceTree = "<group>";
+		};
+		A2F6A4AE184EEE2700B07FC6 /* RHStatusItemView */ = {
+			isa = PBXGroup;
+			children = (
+				A2F6A4AF184EEE2700B07FC6 /* InfoPlist.strings */,
+				A2F6A4B1184EEE2700B07FC6 /* RHStatusItemView-Info.plist */,
+				A2F6A4B2184EEE2700B07FC6 /* RHStatusItemView-Prefix.pch */,
+				A2F6A4B3184EEE2700B07FC6 /* RHStatusItemView.h */,
+				A2F6A4B4184EEE2700B07FC6 /* RHStatusItemView.m */,
+			);
+			path = RHStatusItemView;
+			sourceTree = "<group>";
+		};
+		E4AD7A9D1608DBEC00F594A2 /* XPCService */ = {
+			isa = PBXGroup;
+			children = (
+				E4AD7A9F1608DBEC00F594A2 /* XPCService-Info.plist */,
+				E4AD7A9E1608DBEC00F594A2 /* main.m */,
+				E4AD7AA01608DBEC00F594A2 /* XPCService.h */,
+				E4AD7AA11608DBEC00F594A2 /* XPCService.m */,
+			);
+			path = XPCService;
+			sourceTree = "<group>";
+		};
+		E4CBCCE815EBB50D0081DF5C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E4CBCCE915EBB50D0081DF5C /* Common.h */,
+				E4CBCCEB15EBBB8D0081DF5C /* Common.m */,
+				E4CBCCF215EBC55F0081DF5C /* Common.strings */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E4CD036B15E7A2C300FDC22C /* HelperTool */ = {
+			isa = PBXGroup;
+			children = (
+				E4C372E315E7CC10007554D3 /* HelperTool-Info.plist */,
+				E4C372E415E7CC10007554D3 /* HelperTool-Launchd.plist */,
+				E4CD036C15E7A2C300FDC22C /* main.m */,
+				E4CBCCE515EBA7550081DF5C /* HelperTool.h */,
+				E4CBCCE615EBA7550081DF5C /* HelperTool.m */,
+				A29A05CD1842E71B0022901D /* ConnectionManager.h */,
+				A29A05CE1842E71B0022901D /* ConnectionManager.m */,
+			);
+			path = HelperTool;
+			sourceTree = "<group>";
+		};
+		E4ED7B7415E79B83002AD912 = {
+			isa = PBXGroup;
+			children = (
+				E4ED7B8515E79B83002AD912 /* App */,
+				A2D57B081842AFB7008744DC /* Resources */,
+				A2D57B061842AF75008744DC /* Libraries */,
+				E4CD036B15E7A2C300FDC22C /* HelperTool */,
+				E4AD7A9D1608DBEC00F594A2 /* XPCService */,
+				A20CF69A18445B09000CBDA0 /* Tests */,
+				E4ED7B8215E79B83002AD912 /* Frameworks */,
+				E4ED7B8015E79B83002AD912 /* Products */,
+				A2D57AF21841662F008744DC /* README.txt */,
+			);
+			sourceTree = "<group>";
+		};
+		E4ED7B8015E79B83002AD912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4ED7B7F15E79B83002AD912 /* Focus.app */,
+				E4CD036715E7A2C300FDC22C /* BradJasper.focus.HelperTool */,
+				E4C32DCB16023A97002AFAB3 /* BradJasper.focus.XPCService.xpc */,
+				A20CF69818445B09000CBDA0 /* Focus Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4ED7B8215E79B83002AD912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A241E1981875165C00A86DD1 /* Sparkle.framework */,
+				A20CF69218445AB3000CBDA0 /* XCTest.framework */,
+				A21B6165184140BE0085C4B7 /* SystemConfiguration.framework */,
+				A21B6163184140B70085C4B7 /* CFNetwork.framework */,
+				E4ED7B8315E79B83002AD912 /* Cocoa.framework */,
+				E4C372FB15E7D4FE007554D3 /* Foundation.framework */,
+				E4C372F915E7D4D8007554D3 /* Security.framework */,
+				E4C372F715E7D4D4007554D3 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4ED7B8515E79B83002AD912 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A2703161184D908B00D11B81 /* FocusHTTProxy */,
+				A2CF79C51845658700A1566A /* NetworkSetupManager */,
+				A2CF79BF1845644E00A1566A /* PACFileManager */,
+				A20CF68B18445A52000CBDA0 /* Focus */,
+				A2D57B1F1842C03C008744DC /* InstallerManager */,
+				E4CBCCE815EBB50D0081DF5C /* Common */,
+				E4ED7B8915E79B83002AD912 /* AppDelegate.h */,
+				E4ED7B8A15E79B83002AD912 /* AppDelegate.m */,
+				A265E80818445C420098D0AB /* Support Files */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20CF69718445B09000CBDA0 /* Focus Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20CF6A518445B09000CBDA0 /* Build configuration list for PBXNativeTarget "Focus Tests" */;
+			buildPhases = (
+				A20CF69418445B09000CBDA0 /* Sources */,
+				A20CF69518445B09000CBDA0 /* Frameworks */,
+				A20CF69618445B09000CBDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20CF6A418445B09000CBDA0 /* PBXTargetDependency */,
+			);
+			name = "Focus Tests";
+			productName = "Focus Tests";
+			productReference = A20CF69818445B09000CBDA0 /* Focus Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4C32DCA16023A97002AFAB3 /* XPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C32DD616023A97002AFAB3 /* Build configuration list for PBXNativeTarget "XPCService" */;
+			buildPhases = (
+				E4C32DC716023A97002AFAB3 /* Sources */,
+				E4C32DC816023A97002AFAB3 /* Frameworks */,
+				E4C32DC916023A97002AFAB3 /* Resources */,
+				E4C32DE916024D48002AFAB3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4C32DE816024D45002AFAB3 /* PBXTargetDependency */,
+			);
+			name = XPCService;
+			productName = XPCService;
+			productReference = E4C32DCB16023A97002AFAB3 /* BradJasper.focus.XPCService.xpc */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E4CD036615E7A2C300FDC22C /* HelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CD036E15E7A2C300FDC22C /* Build configuration list for PBXNativeTarget "HelperTool" */;
+			buildPhases = (
+				E4CD036415E7A2C300FDC22C /* Sources */,
+				E4CD036515E7A2C300FDC22C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelperTool;
+			productName = HelperTool;
+			productReference = E4CD036715E7A2C300FDC22C /* BradJasper.focus.HelperTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		E4ED7B7E15E79B83002AD912 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4ED7B9015E79B83002AD912 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				E4ED7B7B15E79B83002AD912 /* Sources */,
+				E4ED7B7C15E79B83002AD912 /* Frameworks */,
+				E4ED7B7D15E79B83002AD912 /* Resources */,
+				E4C32DDB16023B43002AFAB3 /* Copy Files */,
+				A241E19A1875171500A86DD1 /* CopyFiles */,
+				A241E19D1875187D00A86DD1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AD7AA61608DC2D00F594A2 /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = EvenBetterAuthorizationSample;
+			productReference = E4ED7B7F15E79B83002AD912 /* Focus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4ED7B7615E79B83002AD912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					A20CF69718445B09000CBDA0 = {
+						TestTargetID = E4ED7B7E15E79B83002AD912;
+					};
+					E4CD036615E7A2C300FDC22C = {
+						DevelopmentTeam = J6KYVU254V;
+					};
+					E4ED7B7E15E79B83002AD912 = {
+						DevelopmentTeam = J6KYVU254V;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E4ED7B7915E79B83002AD912 /* Build configuration list for PBXProject "Focus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = E4ED7B7415E79B83002AD912;
+			productRefGroup = E4ED7B8015E79B83002AD912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4ED7B7E15E79B83002AD912 /* App */,
+				E4C32DCA16023A97002AFAB3 /* XPCService */,
+				E4CD036615E7A2C300FDC22C /* HelperTool */,
+				A20CF69718445B09000CBDA0 /* Focus Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20CF69618445B09000CBDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20CF69F18445B09000CBDA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32DC916023A97002AFAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C776011603A68300C72EC0 /* Common.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4ED7B7D15E79B83002AD912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CBCCF315EBC58D0081DF5C /* MainMenu.xib in Resources */,
+				A2D57AF61841AC6A008744DC /* Images.xcassets in Resources */,
+				E4CBCCF015EBC55F0081DF5C /* Common.strings in Resources */,
+				A2D57AF31841662F008744DC /* README.txt in Resources */,
+				E4CBCD2A15EC191D0081DF5C /* InfoPlist.strings in Resources */,
+				A25242E718629C630097F28A /* FocusBlackholeProxy.py in Resources */,
+				A2307CE9184D5BCF00C2F291 /* focus in Resources */,
+				A2F6A4B6184EEE2700B07FC6 /* RHStatusItemView-Info.plist in Resources */,
+				A2D11009187527E900245118 /* dsa_pub.pem in Resources */,
+				A2D57B0518428439008744DC /* README.md in Resources */,
+				A2D57B0418428439008744DC /* MIT-LICENSE in Resources */,
+				A2F6A4B5184EEE2700B07FC6 /* InfoPlist.strings in Resources */,
+				A2B9745A185046040005D840 /* template.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A241E19D1875187D00A86DD1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LOCATION=\"./Frameworks\"\nIDENTITY=\"Developer ID Application: Bradley Jasper (J6KYVU254V)\"\ncodesign --verbose --force --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20CF69418445B09000CBDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20CF6A118445B09000CBDA0 /* FocusTests.m in Sources */,
+				A2CF79CC184565FE00A1566A /* NetworkSetupManagerTestCase.m in Sources */,
+				A265E80B184464340098D0AB /* Focus.m in Sources */,
+				A2221A771861196A009AE3E9 /* LoggerClient.m in Sources */,
+				A2CF79CA184565AA00A1566A /* NetworkSetupManager.m in Sources */,
+				A2CF79D3184567C500A1566A /* PACFileManagerTestCase.m in Sources */,
+				A2CF79C41845656600A1566A /* PACFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C32DC716023A97002AFAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C32E781603536C002AFAB3 /* Common.m in Sources */,
+				E4AD7AC216090A3300F594A2 /* XPCService.m in Sources */,
+				A2221A751861195A009AE3E9 /* LoggerClient.m in Sources */,
+				E4AD7AC316090A3600F594A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CD036415E7A2C300FDC22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20C0A661842EB6800356F87 /* ConnectionManager.m in Sources */,
+				A20CF68F18445A62000CBDA0 /* Focus.m in Sources */,
+				A2221A7818611986009AE3E9 /* LoggerClient.m in Sources */,
+				E4CD036D15E7A2C300FDC22C /* main.m in Sources */,
+				A283BEBA1846C74600A45D96 /* NetworkSetupManager.m in Sources */,
+				A2221A7D186152AF009AE3E9 /* LaunchAtLoginController.m in Sources */,
+				A283BEBB1846C74A00A45D96 /* PACFileManager.m in Sources */,
+				E4CBCCE715EBA7550081DF5C /* HelperTool.m in Sources */,
+				A2221A7B1861526C009AE3E9 /* InstallerManager.m in Sources */,
+				E4CBCCED15EBBB8D0081DF5C /* Common.m in Sources */,
+				A2D57B151842B81A008744DC /* NSTask+runCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4ED7B7B15E79B83002AD912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A05CF1842E71B0022901D /* ConnectionManager.m in Sources */,
+				A20CF68E18445A62000CBDA0 /* Focus.m in Sources */,
+				A242FB9218640E01008DEB21 /* NSAttributedString+hyperlinkFromString.m in Sources */,
+				A2221A741861194F009AE3E9 /* LoggerClient.m in Sources */,
+				A2D57B141842B81A008744DC /* NSTask+runCommand.m in Sources */,
+				E4ED7B8B15E79B83002AD912 /* AppDelegate.m in Sources */,
+				A2F6A4B7184EEE2700B07FC6 /* RHStatusItemView.m in Sources */,
+				E4ED7B8D15E79B83002AD912 /* main.m in Sources */,
+				A2CF79C9184565AA00A1566A /* NetworkSetupManager.m in Sources */,
+				A2D57B0318428439008744DC /* FFYDaemonController.m in Sources */,
+				A2CF79C31845656600A1566A /* PACFileManager.m in Sources */,
+				A22224211847CAF8008FD525 /* LaunchAtLoginController.m in Sources */,
+				A2D57B221842C05B008744DC /* InstallerManager.m in Sources */,
+				A2703165184D90BE00D11B81 /* FocusHTTProxy.m in Sources */,
+				E4CBCCEC15EBBB8D0081DF5C /* Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20CF6A418445B09000CBDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4ED7B7E15E79B83002AD912 /* App */;
+			targetProxy = A20CF6A318445B09000CBDA0 /* PBXContainerItemProxy */;
+		};
+		E4AD7AA61608DC2D00F594A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4CD036615E7A2C300FDC22C /* HelperTool */;
+			targetProxy = E4AD7AA51608DC2D00F594A2 /* PBXContainerItemProxy */;
+		};
+		E4C32DE816024D45002AFAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4CD036615E7A2C300FDC22C /* HelperTool */;
+			targetProxy = E4C32DE716024D45002AFAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A20CF69D18445B09000CBDA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20CF69E18445B09000CBDA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2F6A4AF184EEE2700B07FC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F6A4B0184EEE2700B07FC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4CBCCF215EBC55F0081DF5C /* Common.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CBCCF115EBC55F0081DF5C /* en */,
+			);
+			name = Common.strings;
+			sourceTree = "<group>";
+		};
+		E4CBCCF515EBC58D0081DF5C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40FA42317ABE58F00F6CB03 /* Base */,
+				E40FA42417ABE59600F6CB03 /* en */,
+			);
+			name = MainMenu.xib;
+			path = App;
+			sourceTree = "<group>";
+		};
+		E4CBCD2C15EC191D0081DF5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CBCD2B15EC191D0081DF5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20CF6A618445B09000CBDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Focus.app/Contents/MacOS/Focus";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Focus Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "Tests/Focus Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A20CF6A718445B09000CBDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Focus.app/Contents/MacOS/Focus";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Focus Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "Tests/Focus Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E4C32DD716023A97002AFAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "App-Sandboxed/XPCService/XPCService-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = BradJasper.focus.XPCService;
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Debug;
+		};
+		E4C32DD816023A97002AFAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "App-Sandboxed/XPCService/XPCService-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = BradJasper.focus.XPCService;
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Release;
+		};
+		E4CD036F15E7A2C300FDC22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "HelperTool/HelperTool-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"HelperTool/HelperTool-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"HelperTool/HelperTool-Launchd.plist",
+				);
+				PRODUCT_NAME = BradJasper.focus.HelperTool;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4CD037015E7A2C300FDC22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "HelperTool/HelperTool-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"HelperTool/HelperTool-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"HelperTool/HelperTool-Launchd.plist",
+				);
+				PRODUCT_NAME = BradJasper.focus.HelperTool;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4ED7B8E15E79B83002AD912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Bradley Jasper (J6KYVU254V)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = App/FocusPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4ED7B8F15E79B83002AD912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Bradley Jasper (J6KYVU254V)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = App/FocusPrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4ED7B9115E79B83002AD912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/brad/Projects/Focus/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = App/FocusPrefixHeader.pch;
+				INFOPLIST_FILE = "App/App-Info.plist";
+				PRODUCT_NAME = Focus;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4ED7B9215E79B83002AD912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/brad/Projects/Focus/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = App/FocusPrefixHeader.pch;
+				INFOPLIST_FILE = "App/App-Info.plist";
+				PRODUCT_NAME = Focus;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20CF6A518445B09000CBDA0 /* Build configuration list for PBXNativeTarget "Focus Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20CF6A618445B09000CBDA0 /* Debug */,
+				A20CF6A718445B09000CBDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C32DD616023A97002AFAB3 /* Build configuration list for PBXNativeTarget "XPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C32DD716023A97002AFAB3 /* Debug */,
+				E4C32DD816023A97002AFAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CD036E15E7A2C300FDC22C /* Build configuration list for PBXNativeTarget "HelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CD036F15E7A2C300FDC22C /* Debug */,
+				E4CD037015E7A2C300FDC22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4ED7B7915E79B83002AD912 /* Build configuration list for PBXProject "Focus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ED7B8E15E79B83002AD912 /* Debug */,
+				E4ED7B8F15E79B83002AD912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4ED7B9015E79B83002AD912 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ED7B9115E79B83002AD912 /* Debug */,
+				E4ED7B9215E79B83002AD912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4ED7B7615E79B83002AD912 /* Project object */;
+}

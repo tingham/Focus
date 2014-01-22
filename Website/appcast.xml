@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Focus Changelog</title>
+      <link>http://heyfocus.com/appcast.xml</link>
+      <description>Most recent changes to Focus with links to updates.</description>
+      <language>en</language>
+         <item>
+            <title>Version 0.6.1</title>
+            <description><![CDATA[
+                <h2>New Version is released!</h2>
+                <p>Got sparkle added. Here's a kitten.</p>
+                <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/140.jpg">
+            ]]>
+            </description>
+            <pubDate>Wed, 01 Jan 2013 19:20:11 +0000</pubDate>
+            <enclosure url="http://www.heyfocus.com/releases/Focus-0.6.1.zip"
+                sparkle:dsaSignature="MCwCFAFSBaxJbcdxoD1qTAVM0j3UmyhLAhRKI1fcc66EjmwbuEzzYxsoZF2bBA=="
+                       sparkle:version="0.6.1"
+                       length="1015535"
+                       type="application/octet-stream" />
+         </item>
+   </channel>
+</rss>

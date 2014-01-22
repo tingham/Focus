@@ -1,0 +1,79 @@
+# Below are a list of hostnames that are blocked by Focus
+#
+# Lines that start with a '#' are ignored, so you can comment stuff out easily
+#
+# You only have to specify a base hostname, so 'twitter.com' applies to both 'api.twitter.com' and 'www.twitter.com'
+#
+# The sites are organized into categories. You'll likely want to remove sites that you find productive and add more sites that you find distracting
+#
+# NOTE: After editing this file you'll have to toggle Focus for the changes to become active.
+
+# mail
+gmail.com
+mail.google.com
+mail.yahoo.com
+
+# social
+facebook.com
+twitter.com
+pinterest.com
+tumblr.com
+instagram.com
+
+# aggregators
+news.ycombinator.com
+reddit.com
+digg.com
+techmeme.com
+
+# media
+netflix.com
+youtube.com
+imgur.com
+vimeo.com
+ted.com
+blogger.com
+imdb.com
+deviantart.com
+
+# if checking bitcoin prices is getting out of hand
+coinbase.com
+mtgox.com
+btc-e.com
+blockchain.info
+
+# commerce
+ebay.com
+craigslist.org
+etsy.com
+amazon.com
+
+# tech news
+techcrunch.com
+mashable.com
+engadget.com
+gigaom.com
+
+# news
+forbes.com
+economist.com
+nbcnews.com
+yahoo.com
+nytimes.com
+usatoday.com
+washingtonpost.com
+theguardian.com
+time.com
+
+# sports
+bleacherreport.com
+espn.com
+
+# faux news
+foxnews.com
+cnn.com
+msnbc.com
+cnbc.com
+huffingtonpost.com
+businessinsider.com
+buzzfeed.com

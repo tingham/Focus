@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NetworkSetupManagerTestCase testGetAutoProxyURL]:NetworkSetupManagerTestCase.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NetworkSetupManager getAutoProxyURLForNetworkAdapter:@&quot;asdfasdf&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogMessageCompat:LoggerClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSString alloc] initWithFormat:format arguments:args]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

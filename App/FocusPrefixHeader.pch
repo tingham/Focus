@@ -1,0 +1,14 @@
+//
+//  FocusPrefixHeader.pch
+//  Focus
+//
+//  Created by Brad Jasper on 11/23/13.
+//
+//
+
+#ifndef Focus_FocusPrefixHeader_pch
+#define Focus_FocusPrefixHeader_pch
+
+#import "LoggerClient.h"
+
+#endif
