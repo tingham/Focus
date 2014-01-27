@@ -175,6 +175,15 @@ a:after {
   margin-top: 70px;
 }
 
+.teaser {
+  color: white;
+}
+
+.teaser a {
+  color: white;
+  text-decoration: underline;
+}
+
 .questions p {
   padding-bottom: 70px;
 }
