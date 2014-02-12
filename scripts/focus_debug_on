@@ -1,0 +1,24 @@
+#!/bin/bash
+
+ACTIVE_NETWORK=$(echo "open|||get Setup:/Network/Service/$(echo "open|||get State:/Network/Global/IPv4|||d.show" | tr '|||' '\n' | scutil | grep "PrimaryService" | awk '{print $3}') |||d.show" | tr '|||' '\n' | scutil | grep "UserDefinedName" | awk -F': ' '{print $2}')
+FOCUS_BLACKHOLE_PID=$(ps aux | grep FocusBlackholeProxy | grep -v grep | awk '{print $2}')
+
+
+echo "function FindProxyForURL(url, host) {" > /tmp/focus.pac
+echo "    if (dnsDomainIs(host,'heyfocus.com')) return 'PROXY localhost:8401';" >> /tmp/focus.pac
+echo "}" >> /tmp/focus.pac
+
+echo "Active network is '$ACTIVE_NETWORK'"
+echo "Focus Blackhole Proxy PID is '$FOCUS_BLACKHOLE_PID'"
+
+echo
+echo "Active Automatic Proxy Config"
+networksetup -getautoproxyurl "$ACTIVE_NETWORK"
+echo
+networksetup -setautoproxyurl "$ACTIVE_NETWORK" "file:///tmp/focus.pac"
+
+echo "New Active Automatic Proxy Config"
+networksetup -getautoproxyurl "$ACTIVE_NETWORK"
+
+#echo
+#networksetup -setautoproxystate "$ACTIVE_NETWORK" off
