@@ -42,12 +42,10 @@
     NSString *output = [NSTask runCommand:command];
     NSString *cleanedOutput = [output stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
   
-    /*
     // Temporary hack to see if this fixes Focus for people
     if ([cleanedOutput isEqualToString:@"AirPort"]) {
         return @"Wi-Fi";
     }
-     */
     
     return cleanedOutput;
 }
