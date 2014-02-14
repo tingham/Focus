@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>044C386B-71AF-42D9-B2C7-B15E265B5845</string>
+	<string>278CB2D2-C269-4560-95D0-4AF4E546CEB2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Focus</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3F346645-978A-483A-B100-7A42D23630A2</key>
-		<string>ssh://bitbucket.org/bradjasper/focus.git</string>
+		<key>BDFFA8F6-620D-4147-B3E9-7438AAC8265D</key>
+		<string>https://github.com/bradjasper/Focus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Focus.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3F346645-978A-483A-B100-7A42D23630A2</key>
+		<key>BDFFA8F6-620D-4147-B3E9-7438AAC8265D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/bradjasper/focus.git</string>
+	<string>https://github.com/bradjasper/Focus.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3F346645-978A-483A-B100-7A42D23630A2</string>
+	<string>BDFFA8F6-620D-4147-B3E9-7438AAC8265D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3F346645-978A-483A-B100-7A42D23630A2</string>
+			<string>BDFFA8F6-620D-4147-B3E9-7438AAC8265D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Focus</string>
 		</dict>
