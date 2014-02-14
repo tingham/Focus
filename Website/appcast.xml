@@ -6,20 +6,6 @@
       <description>Most recent changes to Focus with links to updates.</description>
       <language>en</language>
          <item>
-            <title>Version 0.9.1</title>
-            <description><![CDATA[
-                <h2>New Version is released!</h2>
-                <p>Fixing bug with upgrade process. Without this Focus won't be able to upgrade itself. Lots of new stuff coming soon!</p>
-            ]]>
-            </description>
-            <pubDate>Thu, 13 Jan 2014 23:04:11 +0000</pubDate>
-            <enclosure url="http://www.heyfocus.com/releases/Focus-0.9.1.zip"
-                sparkle:dsaSignature="MCwCFAMSt0WZOjHh1ggxQsN16m1oBwA1AhR4YoBKRXnaC1LRcRLvI0niC1t6jg=="
-                       sparkle:version="0.9.1"
-                       length="1882204"
-                       type="application/octet-stream" />
-         </item>
-         <item>
             <title>Version 0.6.1</title>
             <description><![CDATA[
                 <h2>New Version is released!</h2>
