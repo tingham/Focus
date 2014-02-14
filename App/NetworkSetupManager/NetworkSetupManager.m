@@ -38,8 +38,6 @@
     }
     
     
-    echo 'open|||get Setup:/Network/Service/0D518E88-BB79-424B-8C72-179155DAD0A5|||d.show' | tr '|||' '\n' | scutil | grep 'UserDefinedName' | awk -F': ' '{print $2}'
-    
     NSString *command = [NSString stringWithFormat:@"echo 'open|||get Setup:/Network/Service/%@|||d.show' | tr '|||' '\n' | scutil | grep 'UserDefinedName' | awk -F': ' '{print $2}'", guid];
     NSString *output = [NSTask runCommand:command];
     NSString *cleanedOutput = [output stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
