@@ -43,7 +43,40 @@
     assert(self.window != nil);
     
     SUUpdater *sparkle = [[SUUpdater alloc] init];
+    sparkle.delegate = self;
     [sparkle checkForUpdatesInBackground];
+}
+
+- (void)updater:(SUUpdater *)updater willInstallUpdate:(SUAppcastItem *)update
+{
+#pragma unused(updater)
+    NSString *updateHelper = [update.propertiesDictionary objectForKey:@"updateHelper"];
+    if ([updateHelper isEqualToString:@"true"]) {
+        NSLog(@"We're updating the helper. Remove it so we can re-install on relaunch");
+        [self uninstallHelper];
+    }
+}
+
+- (void)uninstallHelper
+{
+    [self.helperConnectionManager connectAndExecuteCommandBlock:^(NSError *connectError) {
+        if (connectError != nil) {
+            [self error:[NSString stringWithFormat:@"Unable to connect to helper: %@", connectError]];
+            return;
+        }
+        
+        [[self.helperConnectionManager.helperToolConnection remoteObjectProxyWithErrorHandler:^(NSError *proxyError) {
+            [self error:[NSString stringWithFormat:@"Proxy error: %@", proxyError]];
+        }] uninstall:self.installerManager.authorization withReply:^(NSError *commandError) {
+#pragma unused(commandError)
+            if (commandError == nil) {
+                NSLog(@"Helper tool successfully uninstalled");
+            } else {
+                [self error:@"There was a problem while trying to upgrade Focus. Please try again. If that doesn't work, you can re-open the app and click Uninstall in the menu (this will remove your settings). Then run the latest version. Sorry for any inconvenience."];
+            }
+        }];
+    }];
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification

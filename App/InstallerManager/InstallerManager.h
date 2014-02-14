@@ -18,6 +18,7 @@
 
 - (bool)willAutoLaunch;
 - (bool)uninstallAutoLaunch;
+- (bool)uninstallHelperTool;
 - (bool)installAutoLaunch;
 
 - (bool)PACDirExists;

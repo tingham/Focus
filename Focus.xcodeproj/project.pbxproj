@@ -50,7 +50,6 @@
 		A2CF79CC184565FE00A1566A /* NetworkSetupManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79CB184565FE00A1566A /* NetworkSetupManagerTestCase.m */; };
 		A2CF79D3184567C500A1566A /* PACFileManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79D2184567C500A1566A /* PACFileManagerTestCase.m */; };
 		A2D11009187527E900245118 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A2D11008187527E900245118 /* dsa_pub.pem */; };
-		A2D57AF31841662F008744DC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D57AF21841662F008744DC /* README.txt */; };
 		A2D57AF61841AC6A008744DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D57AF51841AC6A008744DC /* Images.xcassets */; };
 		A2D57B0318428439008744DC /* FFYDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D57B0018428439008744DC /* FFYDaemonController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		A2D57B0418428439008744DC /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A2D57B0118428439008744DC /* MIT-LICENSE */; };
@@ -178,7 +177,6 @@
 		A2CF79CB184565FE00A1566A /* NetworkSetupManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSetupManagerTestCase.m; sourceTree = "<group>"; };
 		A2CF79D2184567C500A1566A /* PACFileManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACFileManagerTestCase.m; sourceTree = "<group>"; };
 		A2D11008187527E900245118 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
-		A2D57AF21841662F008744DC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		A2D57AF418416DAA008744DC /* FocusPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusPrefixHeader.pch; sourceTree = "<group>"; };
 		A2D57AF51841AC6A008744DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
 		A2D57AFF18428439008744DC /* FFYDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFYDaemonController.h; sourceTree = "<group>"; };
@@ -488,7 +486,6 @@
 				A20CF69A18445B09000CBDA0 /* Tests */,
 				E4ED7B8215E79B83002AD912 /* Frameworks */,
 				E4ED7B8015E79B83002AD912 /* Products */,
-				A2D57AF21841662F008744DC /* README.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -681,7 +678,6 @@
 				E4CBCCF315EBC58D0081DF5C /* MainMenu.xib in Resources */,
 				A2D57AF61841AC6A008744DC /* Images.xcassets in Resources */,
 				E4CBCCF015EBC55F0081DF5C /* Common.strings in Resources */,
-				A2D57AF31841662F008744DC /* README.txt in Resources */,
 				E4CBCD2A15EC191D0081DF5C /* InfoPlist.strings in Resources */,
 				A25242E718629C630097F28A /* FocusBlackholeProxy.py in Resources */,
 				A2307CE9184D5BCF00C2F291 /* focus in Resources */,

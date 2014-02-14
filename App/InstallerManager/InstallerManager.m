@@ -45,8 +45,6 @@
         @"security -q authorizationdb remove 'BradJasper.focus.focus'",
         @"security -q authorizationdb remove 'BradJasper.focus.unfocus'",
         @"security -q authorizationdb remove 'BradJasper.focus.uninstall'",
-        @"launchctl unload /Library/LaunchDaemons/BradJasper.focus.HelperTool.plist",
-        @"rm /Library/PrivilegedHelperTools/BradJasper.focus.HelperTool"
     ];
     
     for (NSString *cmd in cmds) {
@@ -54,8 +52,19 @@
         [NSTask runCommand:cmd];
     }
     
+    [self uninstallHelperTool];
+    
     [[NSApplication sharedApplication] terminate:nil];
 }
+
+- (bool)uninstallHelperTool
+{
+    NSLog(@"Uninstalling helper tool");
+    [NSTask runCommand:@"launchctl unload /Library/LaunchDaemons/BradJasper.focus.HelperTool.plist"];
+    [NSTask runCommand:@"rm /Library/PrivilegedHelperTools/BradJasper.focus.HelperTool"];
+    return YES;
+}
+
 
 - (bool)helperToolInstalled
 {
