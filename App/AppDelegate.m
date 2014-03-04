@@ -245,6 +245,11 @@
     
     self.statusItemView = [[RHStatusItemView alloc] initWithStatusBarItem:self.statusItem];
     [self.statusItem setView:self.statusItemView];
+    
+    if (![self.userDefaults boolForKey:@"menuIconTogglesFocus"]) {
+        [self.statusItemView setAction:@selector(rightClickMenu)];
+    }
+    
     [self.statusItemView setRightMenu:self.contextMenu];
     [self.statusItemView setRightAction:@selector(rightClickMenu)];
     [self setStatusItemViewIconOff];
